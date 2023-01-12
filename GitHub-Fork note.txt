@@ -1,0 +1,56 @@
+FOLK
+----
+
+DEFINITION: FOLK IS 
+----------
+
+STEP1:WEBSITE(GIVEN FROM PROF)https://github.com/trinitech2022/testwebsite
+
+STEP2:GO TO WEBSITE (GitHub); click on Fork
+
+STEP3:CREATE A NEW FORK [testwebsite1]
+
+STEP4:Click [code]; Click SSH and Copy and paste to Putty
+
+STEP5:Create a clone:
+
+      =>#git clone git@github.com:Noruche/testwebsite11.git[copy and 
+          paste here]
+      
+      =>#ls
+
+STEP6:#cd testwebsite11clear
+      
+      #pwd
+ 
+  To make enable website in your GitHub repo=>Go to settings=> click 
+
+pages=>click none=>main=>save then wait and keep refreshing 
+
+STEP7:Go back school website for script on GitHub and dump it the vi index.html.
+    
+     => #vi index.htm
+      
+     => #ls
+
+Sample:
+-----------------------------------------------------------------------------------
+<!-- Child comment 1-->
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Nicole Chioma Oruche</div>
+                                                This is Nicole's change in Git. I will add, commit and push it to the main project
+
+------------------------------------------------------------------------------------
+
+STEP8:#git add .
+
+STEP9:#git commit -m "Nicole never gives up"
+
+STEP10:#git push
+
+STEP11:#Go back to website [Github] and refresh page and have patience waiting.
+
+STEP12:Click on Settings =>pages=>None[Change to main] and save 
+
